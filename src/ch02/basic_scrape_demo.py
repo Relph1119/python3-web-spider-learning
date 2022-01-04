@@ -5,7 +5,7 @@
 @file: basic_scrape_demo.py
 @time: 2022/1/4 14:20
 @project: python3-web-spider-learning
-@desc: 2.5 基础爬虫案例实战（P78-）
+@desc: 2.5 基础爬虫案例实战（P78-P89）
 """
 import json
 import logging
@@ -69,6 +69,8 @@ def scrape_detail(url):
 
 
 def parse_detail(html) -> dict:
+    """解析详情页
+    """
     # <div data-v-63864230="" class="item el-row">
     #     <div data-v-63864230="" class="el-col el-col-24 el-col-xs-0 el-col-sm-8">
     #       <a data-v-63864230="" class="router-link-exact-active router-link-active">
@@ -130,8 +132,8 @@ if os.path.exists(RESULT_DIR):
 os.makedirs(RESULT_DIR)
 
 
-
 def save_data(data: dict):
+    # 保存数据为json格式
     name = data.get('name')
     data_path = f'{RESULT_DIR}/{name}.json'
     json.dump(data, open(data_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)

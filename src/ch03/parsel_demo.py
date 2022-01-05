@@ -5,7 +5,7 @@
 @file: parsel_demo.py
 @time: 2022/1/5 16:42
 @project: python3-web-spider-learning
-@desc: 3.4 parsel的使用（P124）
+@desc: 3.4 parsel的使用（P124-P127）
 """
 from parsel import Selector
 

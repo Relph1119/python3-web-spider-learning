@@ -17,7 +17,7 @@ def lxml_demo():
         <li class="item-0"><a href="link1.html">first item</a></li>
         <li class="item-1"><a href="link2.html">second item</a></li>
         <li class="item-inactive"><a href="link3.html">third item</a></li>
-        <li class="item-1"><a href="link4.html">frouth item</a></li>
+        <li class="item-1"><a href="link4.html">fourth item</a></li>
         <li class="item-0"><a href="link5.html">fifth item</a>
       </ul>
     </div>
@@ -115,7 +115,7 @@ def get_nodes_by_order():
         <li class="item-0"><a href="link1.html">first item</a></li>
         <li class="item-1"><a href="link2.html">second item</a></li>
         <li class="item-inactive"><a href="link3.html">third item</a></li>
-        <li class="item-1"><a href="link4.html">frouth item</a></li>
+        <li class="item-1"><a href="link4.html">fourth item</a></li>
         <li class="item-0"><a href="link5.html">fifth item</a>
       </ul>
     </div>
@@ -140,7 +140,7 @@ def get_nodes_by_axis():
         <li class="item-0"><a href="link1.html"><span>first item</span></a></li>
         <li class="item-1"><a href="link2.html">second item</a></li>
         <li class="item-inactive"><a href="link3.html">third item</a></li>
-        <li class="item-1"><a href="link4.html">frouth item</a></li>
+        <li class="item-1"><a href="link4.html">fourth item</a></li>
         <li class="item-0"><a href="link5.html">fifth item</a>
       </ul>
     </div>

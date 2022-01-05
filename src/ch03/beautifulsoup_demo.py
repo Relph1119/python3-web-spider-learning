@@ -5,7 +5,7 @@
 @file: beautifulsoup_demo.py
 @time: 2022/1/4 21:45
 @project: python3-web-spider-learning
-@desc: 3.2 Beautiful Soup的使用（P100-P）
+@desc: 3.2 Beautiful Soup的使用（P100-P112）
 """
 import re
 
@@ -134,7 +134,7 @@ def get_ancestor_nodes():
     print(list(enumerate(soup.a.parents)))
 
 
-def get_bother_nodes():
+def get_borther_nodes():
     html = '''
     <html>
     <head>

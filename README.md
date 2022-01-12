@@ -33,3 +33,16 @@ conda install -c menpo opencv
 conda list -e > requirements.txt
 ```
 
+## 问题汇总
+
+1. 证书过期问题`certificate has expired`
+```log
+raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host antispider6.scrape.center:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131)')]
+```
+**解决方案：**
+```python
+import aiohttp
+from aiohttp import TCPConnector
+session = aiohttp.ClientSession(connector=TCPConnector(ssl=False))
+```

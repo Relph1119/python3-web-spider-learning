@@ -4,17 +4,15 @@
 
 ## 运行环境
 
-### Python版本
+### 安装python虚拟环境
 Mini-Conda Python 3.8 Windows环境
+```shell
+conda create --prefix venv python=3.8
+```
 
 ### 安装相关的依赖包
 ```shell
-conda install --yes --file requirements.txt
-```
-
-### 安装Pytorch
-```shell
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+pip install -r requirements.txt
 ```
 
 ### 安装Tesseract（用于离线文字识别）  
@@ -23,14 +21,9 @@ conda install -c conda-forge tesserocr
 ```
 参考网址：https://setup.scrape.center/tesserocr
 
-### 安装opencv
+### pip批量导出环境中所有组件
 ```shell
-conda install -c menpo opencv
-```
-
-### Conda批量导出环境中所有组件
-```shell
-conda list -e > requirements.txt
+pip freeze > requirements.txt
 ```
 
 ## 问题汇总

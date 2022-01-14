@@ -7,13 +7,12 @@
 @project: python3-web-spider-learning
 @desc: 获取模块，主要负责从存储模块中拿取各个账号信息，并模拟登录，将登录成功后生产的Cookie保存到存储模块中
 """
-from urllib3.exceptions import ProtocolError
+
+import requests
+from loguru import logger
 
 from ch10.account_pool.exceptions import InitException
 from ch10.account_pool.storages_redis import RedisClient
-from loguru import logger
-import requests
-from requests.exceptions import ConnectionError
 
 
 class BaseGenerator:

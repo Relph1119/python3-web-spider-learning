@@ -21,6 +21,11 @@ conda install -c conda-forge tesserocr
 ```
 参考网址：https://setup.scrape.center/tesserocr
 
+### 用VBox安装安卓虚拟机（Android-x86 6.0版本）
+- 参考网址：https://www.cnblogs.com/wynn0123/p/6288344.html
+- 连接虚拟机的命令：`adb connect <ip>`
+- 例如将`scrape-app5.apk`文件上传到安卓虚拟机的命令：`adb push scrape-app5.apk /sdcard`
+
 ### pip批量导出环境中所有组件
 ```shell
 pip freeze > requirements.txt

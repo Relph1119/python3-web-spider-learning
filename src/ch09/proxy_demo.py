@@ -7,19 +7,17 @@
 @project: python3-web-spider-learning
 @desc: 9.1 代理的设置（P332-P340）
 """
-import asyncio
 import socket
 from urllib import request
 from urllib.error import URLError
 from urllib.request import ProxyHandler, build_opener
 
 import aiohttp
-from httpx_socks import SyncProxyTransport, AsyncProxyTransport
-from aiohttp_socks import ProxyConnector
-
 import httpx
 import requests
 import socks
+from aiohttp_socks import ProxyConnector
+from httpx_socks import SyncProxyTransport, AsyncProxyTransport
 from playwright.sync_api import sync_playwright
 from pyppeteer import launch
 from selenium import webdriver

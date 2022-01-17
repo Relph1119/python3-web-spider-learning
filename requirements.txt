@@ -27,6 +27,8 @@ elasticsearch==7.16.3
 environs==9.4.0
 facebook-wda==1.4.6
 Flask==2.0.2
+frida==15.1.14
+frida-tools==10.4.1
 frozenlist==1.2.0
 greenlet==1.1.2
 h11==0.12.0
@@ -65,6 +67,7 @@ pika==1.2.0
 Pillow==9.0.0
 playwright==1.17.2
 pocoui==1.0.85
+prompt-toolkit==3.0.24
 protobuf==3.18.1
 publicsuffix2==2.20191221
 py==1.11.0
@@ -73,6 +76,7 @@ pycparser==2.21
 pydivert==2.1.0
 pyee==8.2.2
 PyExecJS==1.5.1
+Pygments==2.11.2
 pymongo==3.12.3
 PyMySQL==1.0.2
 pyOpenSSL==20.0.1
@@ -99,7 +103,6 @@ six==1.16.0
 sniffio==1.2.0
 sortedcontainers==2.4.0
 soupsieve==2.3.1
-tesserocr @ file:///D:/bld/tesserocr_1610555338657/work
 tornado==6.1
 tqdm==4.62.3
 trio==0.19.0
@@ -110,6 +113,7 @@ urwid==2.1.2
 w3lib==1.22.0
 wasmer==1.1.0
 wasmer_compiler_cranelift==1.1.0
+wcwidth==0.2.5
 websocket-client==0.48.0
 websockets==10.1
 Werkzeug==2.0.2

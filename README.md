@@ -44,3 +44,11 @@ import aiohttp
 from aiohttp import TCPConnector
 session = aiohttp.ClientSession(connector=TCPConnector(ssl=False))
 ```
+
+2. Xposed安装报错
+```log
+Cound not load available ZIP files. Pull down to try again.
+```
+
+**解决方案：**  
+https://blog.csdn.net/weixin_48140105/article/details/118359568

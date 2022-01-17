@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndServerTest</string>
+    <string name="start_server">Start Server</string>
+    <string name="stop_server">Stop Server</string>
+    <string name="server_started">The server is started</string>
+    <string name="server_stopped">The server is stopped</string>
+</resources>

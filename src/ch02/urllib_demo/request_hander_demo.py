@@ -94,4 +94,4 @@ def cookie_use_lwp():
 
 
 if __name__ == '__main__':
-    cookie_use_lwp()
+    valid()

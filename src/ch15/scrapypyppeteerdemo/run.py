@@ -3,10 +3,10 @@
 """
 @author: HuRuiFeng
 @file: run.py
-@time: 2022/1/19 14:55
+@time: 2022/1/20 9:19
 @project: python3-web-spider-learning
-@desc: 15.4 Spider的使用（P759）
+@desc: 15.11 Scrapy对接Pyppeteer（P807）
 """
 from scrapy.cmdline import execute
 
-execute(['scrapy', 'crawl', 'httpbin', '--nolog'])
+execute(['scrapy', 'crawl', 'book'])

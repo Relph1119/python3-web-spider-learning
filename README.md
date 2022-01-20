@@ -33,7 +33,7 @@ pip freeze > requirements.txt
 
 ## 问题汇总
 
-1. 证书过期问题`certificate has expired`
+### 问题1 证书过期问题`certificate has expired`
 ```log
 raise ClientConnectorCertificateError(req.connection_key, exc) from exc
 aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host antispider6.scrape.center:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131)')]
@@ -45,10 +45,14 @@ from aiohttp import TCPConnector
 session = aiohttp.ClientSession(connector=TCPConnector(ssl=False))
 ```
 
-2. Xposed安装报错
+### 问题2 运行配置twisted的异步报错问题
 ```log
-Cound not load available ZIP files. Pull down to try again.
+TypeError: ProactorEventLoop is not supported, got: <ProactorEventLoop running=False closed=False debug=False>
 ```
-
 **解决方案：**  
-https://blog.csdn.net/weixin_48140105/article/details/118359568
+在Windows环境的Python3.8下，需要在spider中添加如下代码：
+```python
+import asyncio
+
+asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+```

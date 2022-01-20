@@ -1,0 +1,72 @@
+{
+  "spider": "universal",
+  "type": "电影",
+  "home": "https://ssr1.scrape.center/",
+  "settings": {
+    "USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+  },
+  "start_urls": [
+    "https://ssr1.scrape.center/"
+  ],
+  "allowed_domains": [
+    "ssr1.scrape.center"
+  ],
+  "rules": [
+    {
+      "link_extractor":  {
+        "restrict_css":  ".item .name"
+      },
+      "follow": true,
+      "callback": "parse_detail"
+    },
+    {
+      "link_extractor":  {
+        "restrict_css":  ".next"
+      },
+      "follow": true
+    }
+  ],
+  "item": {
+    "class": "MovieItem",
+    "loader": "MovieItemLoader",
+    "attrs": {
+      "name": [
+        {
+          "method": "css",
+          "arg": ".item h2::text"
+        }
+      ],
+      "categories": [
+        {
+          "method": "css",
+          "arg": ".categories button span::text"
+        }
+      ],
+      "cover": [
+        {
+          "method": "css",
+          "arg": ".cover::attr(src)"
+        }
+      ],
+      "published_at": [
+        {
+          "method": "css",
+          "arg": ".info span::text",
+          "re": "(\\d{4}-\\d{2}-\\d{2})\\s?上映"
+        }
+      ],
+      "score": [
+        {
+          "method": "xpath",
+          "arg": "//p[contains(@class, \"score\")]/text()"
+        }
+      ],
+      "drama": [
+        {
+          "method": "xpath",
+          "arg": "//div[contains(@class, \"drama\")]/p/text()"
+        }
+      ]
+    }
+  }
+}

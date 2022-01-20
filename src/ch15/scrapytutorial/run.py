@@ -5,7 +5,7 @@
 @file: run.py
 @time: 2022/1/19 13:48
 @project: python3-web-spider-learning
-@desc: 
+@desc: 15.2 Scrapy入门（P743）
 """
 from scrapy.cmdline import execute
 

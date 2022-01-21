@@ -5,7 +5,7 @@
 @file: advanced_use.py
 @time: 2021/12/31 15:13
 @project: python3-web-spider-learning
-@desc: 高级用法（P55~）
+@desc: 高级用法（P55~P63）
 """
 import requests
 import urllib3

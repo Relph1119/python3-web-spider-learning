@@ -5,7 +5,7 @@
 @file: text_oper_demo.py
 @time: 2022/1/5 19:00
 @project: python3-web-spider-learning
-@desc: 4.1 TXT文本存储（P128-P130）
+@desc: 4.1 TXT文本存储（P128~P130）
 """
 import os
 import re

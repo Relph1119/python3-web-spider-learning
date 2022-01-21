@@ -5,7 +5,7 @@
 @file: nodejs_client.py
 @time: 2022/1/13 22:13
 @project: python3-web-spider-learning
-@desc: 
+@desc: Python调用Node.js服务（P453）
 """
 
 import requests

@@ -5,7 +5,7 @@
 @file: opencv_demo.py
 @time: 2022/1/11 10:41
 @project: python3-web-spider-learning
-@desc: 8.2 使用OpenCV识别滑动验证码的缺口
+@desc: 8.2 使用OpenCV识别滑动验证码的缺口（P298~P303）
 """
 import cv2
 

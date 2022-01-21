@@ -5,7 +5,7 @@
 @file: csv_oper_demo.py
 @time: 2022/1/5 19:20
 @project: python3-web-spider-learning
-@desc: 4.3 CSV文件存储（P134-P138）
+@desc: 4.3 CSV文件存储（P134~P138）
 """
 import csv
 

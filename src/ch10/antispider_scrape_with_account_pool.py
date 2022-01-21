@@ -5,7 +5,7 @@
 @file: antispider_scrape_with_account_pool.py
 @time: 2022/1/12 17:18
 @project: python3-web-spider-learning
-@desc: 使用账号池爬取网页
+@desc: 使用账号池爬取网页（P394）
 """
 import asyncio
 from pyquery import PyQuery as pq

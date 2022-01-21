@@ -5,7 +5,7 @@
 @file: mongodb_demo.py
 @time: 2022/1/5 20:16
 @project: python3-web-spider-learning
-@desc: 4.5 MongoDB文档存储（P144-P150）
+@desc: 4.5 MongoDB文档存储（P144~P150）
 """
 import pymongo
 

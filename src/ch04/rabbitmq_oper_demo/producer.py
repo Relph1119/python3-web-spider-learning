@@ -5,7 +5,7 @@
 @file: producer.py
 @time: 2022/1/6 14:32
 @project: python3-web-spider-learning
-@desc: RabbitMQ 生产者
+@desc: RabbitMQ 生产者示例（P169）
 """
 import pika
 

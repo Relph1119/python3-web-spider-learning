@@ -5,7 +5,7 @@
 @file: page_demo.py
 @time: 2022/1/10 18:29
 @project: python3-web-spider-learning
-@desc: Page对象示例（P253-）
+@desc: Page对象示例（P253~P256）
 """
 import asyncio
 

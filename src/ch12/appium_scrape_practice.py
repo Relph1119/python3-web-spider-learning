@@ -5,7 +5,7 @@
 @file: appium_scrape_practice.py
 @time: 2022/1/16 2:45
 @project: python3-web-spider-learning
-@desc: 12.5 基于Appium的App爬取实战
+@desc: 12.5 基于Appium的App爬取实战（P562）
 目标App：app5-scrape.apk
 爬取流程：
 （1）遍历现有的电影条目，依次模拟点击每个电影条目，进入详情页

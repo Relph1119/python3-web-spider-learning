@@ -5,7 +5,7 @@
 @file: aiohttp_scrape_demo.py
 @time: 2022/1/6 20:06
 @project: python3-web-spider-learning
-@desc: 6.3 aiohttp异步爬取实战（P207-P211）
+@desc: 6.3 aiohttp异步爬取实战（P207~P211）
 """
 import asyncio
 import json

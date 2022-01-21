@@ -5,7 +5,7 @@
 @file: scrape_ajax.py
 @time: 2022/1/6 15:46
 @project: python3-web-spider-learning
-@desc: 5.3 Ajax分析与爬取实战（P184-P190）
+@desc: 5.3 Ajax分析与爬取实战（P184~P190）
 """
 import logging
 

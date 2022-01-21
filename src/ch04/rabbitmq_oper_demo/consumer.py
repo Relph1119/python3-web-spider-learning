@@ -5,7 +5,7 @@
 @file: consumer.py
 @time: 2022/1/6 14:32
 @project: python3-web-spider-learning
-@desc: RabbitMQ 消费者
+@desc: RabbitMQ 消费者示例（P167）
 """
 import pika
 

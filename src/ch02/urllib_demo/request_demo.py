@@ -5,7 +5,7 @@
 @file: requests_demo.py
 @time: 2021/12/29 15:17
 @project: python3-web-spider-learning
-@desc: Request模块示例(P30~P34)
+@desc: Request模块示例（P30~P34）
 """
 import socket
 import urllib.request

@@ -5,7 +5,7 @@
 @file: mysql_oper_demo.py
 @time: 2022/1/5 19:31
 @project: python3-web-spider-learning
-@desc: 4.4 MySQL存储（P138-P144）
+@desc: 4.4 MySQL存储（P138~P144）
 """
 import pymysql
 

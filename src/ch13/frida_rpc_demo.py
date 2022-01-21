@@ -5,7 +5,7 @@
 @file: frida_rpc_demo.py
 @time: 2022/1/17 20:11
 @project: python3-web-spider-learning
-@desc: 基于Frida-RPC 模拟执行so文件
+@desc: 13.9 基于Frida-RPC 模拟执行so文件（P683）
 """
 import frida
 import requests

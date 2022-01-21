@@ -5,7 +5,7 @@
 @file: regx_demo.py
 @time: 2022/1/4 9:33
 @project: python3-web-spider-learning
-@desc: 2.3 正则表达式（P66-P73）
+@desc: 2.3 正则表达式（P66~P73）
 """
 import re
 

@@ -5,7 +5,7 @@
 @file: pyquery_demo.py
 @time: 2022/1/5 8:49
 @project: python3-web-spider-learning
-@desc: 3.3 pyquery的使用（P113-P124）
+@desc: 3.3 pyquery的使用（P113~P124）
 """
 
 from pyquery import PyQuery as pq

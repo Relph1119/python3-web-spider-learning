@@ -5,7 +5,7 @@
 @file: beautifulsoup_demo.py
 @time: 2022/1/4 21:45
 @project: python3-web-spider-learning
-@desc: 3.2 Beautiful Soup的使用（P100-P112）
+@desc: 3.2 Beautiful Soup的使用（P100~P112）
 """
 import re
 

@@ -5,7 +5,7 @@
 @file: node_info.py
 @time: 2022/1/7 10:36
 @project: python3-web-spider-learning
-@desc: 获取节点信息
+@desc: 获取节点信息（P218）
 """
 from selenium import webdriver
 

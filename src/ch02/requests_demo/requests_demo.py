@@ -5,7 +5,7 @@
 @file: requests_demo.py
 @time: 2021/12/31 13:52
 @project: python3-web-spider-learning
-@desc: requests库示例（P48~P55）
+@desc: requests基本用法（P48~P55）
 """
 import os
 import re

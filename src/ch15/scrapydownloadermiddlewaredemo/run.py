@@ -5,7 +5,7 @@
 @file: run.py
 @time: 2022/1/19 14:55
 @project: python3-web-spider-learning
-@desc: 15.6 Spider Middleware的使用（P775）
+@desc:15.5 Downloader Middleware的使用（P770）
 """
 from scrapy.cmdline import execute
 

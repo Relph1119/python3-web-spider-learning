@@ -5,7 +5,7 @@
 @file: elasticsearch_oper_demo.py
 @time: 2022/1/6 9:15
 @project: python3-web-spider-learning
-@desc: 4.7 Elasticsearch搜索引擎存储（P161-P166）
+@desc: 4.7 Elasticsearch搜索引擎存储（P161~P166）
 """
 from elasticsearch import Elasticsearch
 

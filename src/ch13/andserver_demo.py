@@ -5,7 +5,7 @@
 @file: andserver_demo.py
 @time: 2022/1/17 23:07
 @project: python3-web-spider-learning
-@desc: 基于AndServer-RPC模拟执行so文件（P691）
+@desc: 13.10 基于AndServer-RPC模拟执行so文件（Python爬取数据）（P691）
 """
 import requests
 

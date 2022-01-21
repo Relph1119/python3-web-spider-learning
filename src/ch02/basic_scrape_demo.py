@@ -5,7 +5,7 @@
 @file: basic_scrape_demo.py
 @time: 2022/1/4 14:20
 @project: python3-web-spider-learning
-@desc: 2.5 基础爬虫案例实战（P78-P89）
+@desc: 2.5 基础爬虫案例实战（P78~P89）
 """
 import json
 import logging

@@ -5,7 +5,7 @@
 @file: request_hander_demo.py
 @time: 2021/12/29 16:32
 @project: python3-web-spider-learning
-@desc: 验证、代理、Cookie(P35-P36)
+@desc: 验证、代理、Cookie（P35-P36）
 """
 
 import http.cookiejar

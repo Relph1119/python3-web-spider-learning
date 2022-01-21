@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+# encoding: utf-8
+"""
+@author: HuRuiFeng
+@file: airtest_script.py
+@time: 2022/1/16 2:45
+@project: python3-web-spider-learning
+@desc: 12.7 基于Airtest的App爬取实战（P586）
+"""
 import os
 
 from airtest.core.api import stop_app, start_app, keyevent, swipe, connect_device

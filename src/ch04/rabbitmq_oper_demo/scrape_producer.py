@@ -5,7 +5,7 @@
 @file: scrape_producer.py
 @time: 2022/1/6 15:10
 @project: python3-web-spider-learning
-@desc: 
+@desc: RabbitMQ实战 生产者（P171）
 """
 import pickle
 

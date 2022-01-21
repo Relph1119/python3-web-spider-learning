@@ -5,7 +5,7 @@
 @file: cookie_oper.py
 @time: 2022/1/7 15:28
 @project: python3-web-spider-learning
-@desc: Cookie操作
+@desc: Cookie操作（P222）
 """
 from selenium import webdriver
 

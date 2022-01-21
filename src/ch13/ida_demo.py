@@ -5,7 +5,7 @@
 @file: ida_demo.py
 @time: 2022/1/17 19:19
 @project: python3-web-spider-learning
-@desc: 13.8 IDA Pro静态分析和动态调试so文件（汇编代码调试）
+@desc: 13.8 IDA Pro静态分析和动态调试so文件（汇编代码调试）（P679）
 """
 import requests
 import hashlib

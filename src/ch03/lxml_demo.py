@@ -5,7 +5,7 @@
 @file: lxml_demo.py
 @time: 2022/1/4 19:33
 @project: python3-web-spider-learning
-@desc: 3.1 lxml库的使用（P91-P98）
+@desc: 3.1 lxml库的使用（P91~P98）
 """
 from lxml import etree
 

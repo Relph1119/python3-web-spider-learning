@@ -193,3 +193,24 @@ import asyncio
 
 asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 ```
+
+## 建议学习时间安排
+
+总共学习时间：18天
+- Task01：爬虫基础（1天）
+- Task02：基本库的使用（2天）
+- Task03：网页数据的解析提取（1天）
+- Task04：数据的存储（1天）
+- Task05：Ajax数据爬取（0.5天）
+- Task06：异步爬虫（0.5天）
+- Task07：JavaScript动态渲染页面爬取（2天）
+- Task08：验证码的识别（0.5天）
+- Task09：代理的使用（0.5天）
+- Task10：模拟登录（1天）
+- Task11：JavaScript逆向爬虫（2天）
+- Task12：App数据的爬取（1天）
+- Task13：Android逆向（1天）
+- Task14：页面智能解析（1天）
+- Task15：Scrapy框架的使用（1.5天）
+- Task16：分布式爬虫（0.5天）
+- Task17：爬虫的管理和部署（1天）
